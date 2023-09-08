@@ -12,7 +12,7 @@ def convert_temperature():
  print('insert a number')
  num1= int(input())
  res2= (9/5)*num1+32
- print(str(res2)+ 'Fahrenheit')
+ print(str(res2)+ 'Fahrenheit')  
 
 def convert_weight():
  print('insert a number')
