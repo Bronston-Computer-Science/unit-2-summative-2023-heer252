@@ -4,23 +4,23 @@ print('Enter option 2 to convert from temperature in celsuis to fahrenheit')
 print('Enter option 3 to convert from kilograms to pounds')
 def convert_length():
  print('insert a number')
- num1= int(input())
+ num1= float(input())
  res1= num1*3.2
  print(str(res1)+' Feet')
 
 def convert_temperature():
  print('insert a number')
- num1= int(input())
+ num1= float(input())
  res2= (9/5)*num1+32
  print(str(res2)+ 'Fahrenheit')  
 
 def convert_weight():
  print('insert a number')
- num1= int(input())
+ num1= float(input())
  res3= num1*2.2
  print(str(res3)+ 'Pounds')
 
-opt = int(input("Enter your choice: "))
+opt = float(input("Enter your choice: "))
 if opt==1:
  convert_length()
 elif opt==2:
